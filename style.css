@@ -278,18 +278,8 @@ main > img {
 .below-text button {
     position:relative !important;
 }
-.smalljersey {
-    position:absolute;
-    width:25rem;
-    top:60% !important;
-    left:-30% !important;
-    z-index:10 !important;
-    opacity:0;
 
-}
-.below-text button:hover .smalljersey {
-    opacity:0.4;
-}
+
 
 .gone {
     display:none;
