@@ -760,7 +760,7 @@ main > img {
     border:0.5px solid gray;
     color:gray;
     font-size:1.25rem;
-    margin-top:-6rem;
+    margin-top:-8rem;
     margin-left:4rem;
     cursor:pointer;
     position:relative;
@@ -772,12 +772,12 @@ main > img {
 }
 .grid-item-second:nth-child(3) button::after {
     content:"SEE MORE";
-    color:white;
+    color:black;
     display:grid;
     place-items:center;
     width:100%;
     height:100%;
-    background-color:#1c1c1c;
+    background-color:rgb(236, 236, 236);
     position:absolute;
     inset:0;
     border-radius:100%;
@@ -972,12 +972,12 @@ fieldset .button-wrapper button {
 }
 fieldset  button::after {
     content:"SEND MESSAGE";
-    color:white;
+    color:black;
     display:grid;
     place-items:center;
     width:100%;
     height:100%;
-    background-color:#1c1c1c;
+    background-color:rgb(236, 236, 236);
     position:absolute;
     inset:0;
     border-radius:100%;
