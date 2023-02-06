@@ -7,36 +7,75 @@
     <title>Landscape Lighting Jersey</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="lll-images/icon-lll-logo.svg" type="image/x-icon">
+    <script defer src="index.js"></script>
 </head>
-<body>
-    <header>
-        <div class="header-wrapper">
+<body style="overflow-x:hidden !important">
+    <header style="overflow:visible !important">
+        <div class="header-wrapper" >
             
-            <div class="second-bar">
-                <img src="lll-images/logo.svg" alt="Landscape Lighting Limited Logo">
+            <div class="second-bar" >
+                <a href="#">
+                    <img src="lll-images/logo.svg" alt="Landscape Lighting Limited Logo">
+                </a>
                 <nav>
                     <ul>
-                        <li>HOME</li>
-                        <li>OUR WORK</li>
-                        <button>Contact Us</button>
+                        <a href="#">
+                            <li>HOME</li>
+                        </a>
+                        <a href="our-previous-work/">
+                            <li>OUR WORK</li>
+                        </a>
+                        <a href="#contact">
+                            <button>Contact Us</button>
+                        </a>
                     </ul>
                 </nav>
+                <div class="dropdown"  data-dropdown >
+                    <img data-dropdown-button src="lll-images/menu-hotdog-svgrepo-com (1).svg" alt="Mobile Menu" class="menu link">
+    
+                    <div class="dropdown-menu information-grid" style="overflow:visible !important">
+                        <div class="div">
+                            <div class="dropdown-heading" style="overflow:visible !important"><a href="#">Home</a></div>
+                            
+                        </div>
+                        <div class="div">
+                            <div class="dropdown-heading" style="overflow:visible !important"><a href="about-take-this/">About</a></div>
+                            
+                        </div>
+                        <div class="div">
+                            <div class="dropdown-heading" style="overflow:visible !important"><a href="music-and-media/">Music & Media</a></div>
+                            
+                        </div>
+                        <div class="div">
+                            <div class="dropdown-heading" style="overflow:visible !important"><a href="testimonials-from-clients/" aria-label="Services Page">Testimonials</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    <main>
+    <main style="overflow:hidden !important">
         <img src="lll-images/watermark.svg" alt="">
-        <div class="hero-wrapper">
+        <div class="hero-wrapper" style="overflow:hidden !important">
             
-            <!-- <img src="lll-images/IMG_2270.png" alt=""> -->
             <div class="left">
                 
                     <h1>WE ARE LANDSCAPE<br> LIGHTING JERSEY</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore autem dolor, maxime praesentium voluptatem culpa sit assumenda facere debitis!</p>
+                    <button>OUR WORK</button>
                     
                     <div class="below-text">
-                        <img src="lll-images/IMG_9854.png" alt="">
+                        <img src="lll-page-two-images/IMG_9611.png" alt="Pool Lighting" class="gone">
+                        <img class="here" src="lll-images/IMG_9854.png" alt="">
                                         
-                                        <button><span> <img class="smalljersey" src="lll-images/watermarktwo.svg" alt=""> OUR WORK</span></button>
+                                        <a href="our-previous-work/">
+                                            <button>
+                                                <span>
+                                                    <img class="smalljersey" src="lll-images/watermarktwo.svg" alt=""> OUR WORK
+                                                </span>
+                                            </button>
+                                        </a>
                     </div>
             </div>
             <div class="right">
@@ -57,7 +96,7 @@
                 </div>
                 <div class="img-wrapper">
                     <img class="small-image" src="lll-images/IMG_5313.png" alt="outdoor lighting products at night">
-                    <p>OUTDOOR GARDEN NIGHTLIGHT</p>
+                    <p>OUTDOOR GARDEN LIGHT</p>
                 </div>
                 </div>
             <div class="grid-item">
@@ -70,20 +109,8 @@
             </div>
         </div>
     </section>
-    <section class="circle-section">
-        <div class="circle-section-wrapper">
-            <img src="lll-images/watermark.svg" alt="Watermark" class="absolute">
-            <div class="circle-sec">
-                <p>OUTDOOR WALL LIGHT</p>
-                <img src="lll-images/My project (21) 1.png" alt="Rock Wall Light">
-            </div>
-            <div class="circle-sec">
-                <p>NEW GARDEN DOWNLIGHT</p>
-                <img src="lll-images/My project (20) 1.png" alt="LED Garden Light">
-            </div>
-        </div>
-    </section>
-    <section class="big-text-section">
+    
+    <section class="big-text-section" style="overflow:hidden !important">
         <img class="absolute" src="lll-images/watermark-two.svg" alt="Watermark">
         <div class="big-text-wrapper">
             <h2>OUR LIGHTS CAN FIT MANY   <span>______<img src="lll-images/—Pngtree—led energy saving lamp_5634239 1.png" alt="LED BULB"></span>  MANY STYLES   <span>________<img class="second-image" src="lll-images/—Pngtree—c4d simulation physical light led_4450483 1.png" alt="LED BULB"></span>      TURN YOUR LANDSCAPE INTO</h2>
@@ -93,7 +120,7 @@
     <section class="banner">
         <img src="lll-images/DSC_0927.png" alt="Banner of our graden lighting">
     </section>
-    <section class="second-grid-section">
+    <section class="second-grid-section" style="overflow:hidden !important">
         <img src="lll-images/watermark-two.svg" alt="Watermark" class="absolute">
         <div class="second-grid-wrapper">
             <div class="grid-item-second">
@@ -105,16 +132,19 @@
             </div>
             <div class="grid-item-second">
                 <p>DO YOU WANT TO BE SEEN AT NIGHT</p>
-                <button>SEE MORE</button>
+                <a href="our-previous-work/">
+                    <button>SEE MORE</button>
+                </a>
             </div>
         </div>
     </section>
-    <section class="contact-section">
+    <section id="contact" class="contact-section" style="overflow:hidden !important">
+        <img class="watermark" src="lll-images/jersey.svg" alt="Watermark">
+
         <div class="contact-wrapper">
             <div class="contact-card">
                 <div class="contact-card-left">
                     <img src="lll-images/My project (23) 1.png" alt="Our Outdoor Wall Lights">
-                    <img class="watermark" src="lll-images/jersey.svg" alt="Watermark">
                 </div>
                 <div class="contact-card-right">
                     <h2>FILL OUT THE FORM TO RECEIVE A FREE QUOTE</h2>
@@ -137,10 +167,7 @@
                             </label>
                             <textarea name="message" id="message" cols="30" rows="5"></textarea>
                             <div class="button-wrapper">
-                                <div class="contact-info">
-                                    <p>Email: paulbentley@icloud.com</p>
-                                    <p>Phone: 07781 126756</p>
-                                </div>
+                                
                                 <button>SEND MESSAGE</button>
                             </div>
                         </fieldset>
@@ -149,5 +176,30 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-top">
+                <a href="#">
+                    <img src="lll-images/logo.svg" alt="Landscape Lighting Limited Jersey Logo">
+                </a>
+                <ul>
+                    <a href="#">
+                        <li>HOME</li>
+                    </a>
+                    <a href="our-previous-work/">
+                        <li>OUR WORK</li>
+                    </a>
+                    <a href="#contact">
+                        <li>CONTACT US</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <a rel="dofollow author" target="_blank" href="https://islandwebdesign.net/">
+                    <p style="text-decoration:underline; font-size:2rem; text-align:center;">Designed By Island Web Design</p>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
